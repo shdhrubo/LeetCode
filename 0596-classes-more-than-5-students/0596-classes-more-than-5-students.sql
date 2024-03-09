@@ -2,4 +2,4 @@
 select class
 from Courses
 group by class
-having COUNT(distinct student)>=5
+having COUNT(student)>=5
